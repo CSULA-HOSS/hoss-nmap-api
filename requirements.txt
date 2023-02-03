@@ -1,0 +1,4 @@
+fastapi==0.89.1
+nmap==0.0.1
+python_nmap==0.7.1
+uvicorn==0.20.0
