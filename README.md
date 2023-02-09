@@ -11,14 +11,14 @@
 </ol>
 
 <h3>Notes</h3>
-<ol>
-  <ul>Edit HOSS NMAP API Nginx config file: <code>sudo vim /etc/nginx/sites-enabled/hoss-api_nginx</code></ul>
-  <ul>Edit Nginx config file: <code>sudo vim /etc/nginx/sites-enabled/hoss-api_nginx</code></ul>
-  <ul>Restart Nginx: <code>sudo service nginx restart</code></ul>
-  <ul>Start uvicorn server/project: <code>sudo python3 main.py </code> (Uvicorn is started programitcally)</ul>
-</ol>
+<ul>
+  <li>Edit HOSS NMAP API Nginx config file: <code>sudo vim /etc/nginx/sites-enabled/hoss-api_nginx</code></li>
+  <li>Edit Nginx config file: <code>sudo nano nginx.conf</code></li>
+  <li>Restart Nginx: <code>sudo service nginx restart</code></li>
+  <li>Start uvicorn server/project: <code>sudo python3 main.py</code> (Uvicorn is started programitcally)</li>
+</ul>
 
 <h4>Additional Resources for deployment</h4>
-<a href="https://www.youtube.com/watch?v=SgSnz7kW-Ko&t=534s">Youtube Video: How to Deploy FastAPI on AWS EC2: Quick and Easy Steps!</a>
-<a href="https://www.uvicorn.org/deployment/#running-behind-nginx">Uvicorn deployment resources, Running Behinf Nginx</a>
+<a href="https://www.youtube.com/watch?v=SgSnz7kW-Ko&t=534s">Youtube Video: How to Deploy FastAPI on AWS EC2: Quick and Easy Steps!</a><br>
+<a href="https://www.uvicorn.org/deployment/#running-behind-nginx">Uvicorn deployment resources, Running Behind Nginx</a>
 
